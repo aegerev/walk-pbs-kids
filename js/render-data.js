@@ -1,0 +1,13 @@
+const tableHtmlContent = createSortedTable(profitData);
+const htmlBody = document.querySelector("body");
+const averageText = document.createElement("p");
+averageText.classList.add("display");
+averageText.classList.add("display-last");
+const numberOfTopEmployees = 100;
+const table = document.getElementById("myTable");
+table.deleteRow(1);
+const averageSalary = calculateAverageSalary(profitData, numberOfTopEmployees);
+averageText.innerHTML = `Average Salary of top ${numberOfTopEmployees} employees: $${averageSalary}`;
+htmlBody.appendChild(averageText);
+const tableBody = document.querySelector("#myTable tbody");
+tableBody.innerHTML = tableHtmlContent;

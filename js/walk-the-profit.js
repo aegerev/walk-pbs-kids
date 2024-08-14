@@ -8,7 +8,7 @@ function createSortedTable(dataArray) {
     })
 
     let htmlContent = "";
-	let columns = ["NAME", "TITLE", "DEPARTMENT NAME", "TOTAL EARNINGS"];
+	let columns = ["NAME", "TITLE", "DEPARTMENT NAME", "COMPANY NAME", "TOTAL EARNINGS"];
 	for(let i = 0; i < 10; i++) {
 		htmlContent += "<tr>";
 		for(let j = 0; j < columns.length; j++) {
