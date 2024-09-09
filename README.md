@@ -16,7 +16,7 @@ The sort function is an Array manipulation function, which uses a function as an
   * Objects
   * Arrays
 
-Deployed: https://aegerev.github.io/cyberchase-compuprogramming/
-GitHub repo: https://github.com/aegerev/cyberchase-compuprogramming
+Deployed: https://aegerev.github.io/walk-the-profit/
+GitHub repo: https://github.com/aegerev/walk-the-profit
 
 (c) 2024 Alexander Egerev. All Rights Reserved.
